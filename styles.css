@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #64647c;
+}
+
+.titulo{
+    text-align: center;
+    padding: 10px;
+
+    color: white;
+}
+
+.contTop{
+    display: flex;
+    align-items: center;
+    background-color: #c49f3b;
+    justify-content: center;
+}
+
+.contTop img{
+    width: 40px;
+    height: 40px;
+}
+
+.cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color:#2f323f;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cont1 button{
+    width: 100px;
+    height: 30px;
+    background-color: #c49f3b;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+#buscarInput{
+    border-radius: 20px;
+    width: 30%;
+    height: 35px;
+    text-align: center;
+    border: none;
+}
+
+#contPokemon{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    padding: 50px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.tarjetaPokemon{
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #2f323f;
+    color: white;
+    font-weight: 500;
+}
+
+.tarjetaPokemon img{
+    width: 170px;
+    height: 170px;
+}
+
+.idPokemon{
+    color: gray;
+}
+
+
+
