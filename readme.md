@@ -7,16 +7,16 @@ Aplicación web para visualizar los primeros 151 pokemones.
 
 ## Contenido
 
-- [Descripción](#descripcion)
+- [Descripción](#descripción)
 - [Caracteristicas](#caracteristicas)
 - [Capturas](#capturas)
-- [API Reference](#api)
-- [Tecnologias Usadas](#tecnologias)
+- [API Reference](#api-reference)
+- [Tecnologias Usadas](#tecnologias-usadas)
 - [Autor](#autor)
 
 ---
 
-## Descripción 📄
+## Descripción
 
 Este proyecto es una aplicación web interactiva que consume la PokeAPI para mostrar una galería con los primeros 151 Pokémon de la primera generación, incluyendo sus sprites, nombres y tipos.
 
@@ -42,7 +42,7 @@ Es ideal como práctica para el consumo de APIs públicas, manejo del DOM, y dis
 
 ## Capturas
 
-![Pokemon](./assets/pokemon.png)
+![Pokemon](../assets/pokemon.png)
 
 
 
@@ -52,7 +52,7 @@ Es ideal como práctica para el consumo de APIs públicas, manejo del DOM, y dis
 #### Get all items
 
 ```http
-  https://pokeapi.co/api/v2/pokemon?limit=151
+  GET https://pokeapi.co/api/v2/pokemon?limit=151
 ```
 
 | Parameter | Type     | Description                |
@@ -77,7 +77,7 @@ Resultado: { name: "pikachu", sprites: {...}, types: [...] }
 
 
 
-## Tech Stack
+## Tecnologias Usadas
 
 **Client:** HTML5, CSS, JavaScript
 
@@ -93,7 +93,7 @@ Resultado: { name: "pikachu", sprites: {...}, types: [...] }
 
 
 
-## Authors
+## Autor
 
 - [@JesuisDv](https://github.com/JesuisDv)
 
