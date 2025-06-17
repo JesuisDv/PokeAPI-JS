@@ -42,7 +42,7 @@ Es ideal como práctica para el consumo de APIs públicas, manejo del DOM, y dis
 
 ## Capturas
 
-![Pokemon](../assets/pokemon.png)
+![Pokemon](./assets/pokemon.png)
 
 
 
